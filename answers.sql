@@ -16,8 +16,7 @@ LEFT JOIN productionLine pl
 ON p.productionLine = pl.productLine;
 
 -- question 3-- retrieve 
--- use RIGHT JOINbetween customers and ordes on customersNumber.
-
+-- use RIGHT JOINbetween customers and ordes on customersNumber
 SELECT o.orderDate,o.shippedDate,o.status,o.customersNumber
 FROM customers c
 RIGHT JOIN orders o
